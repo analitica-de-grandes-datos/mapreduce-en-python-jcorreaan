@@ -1,15 +1,11 @@
 #
 # >>> Escriba el codigo del mapper a partir de este punto <<<
 #
-
-
 import sys
 
-if __name__ == "__main__":
+def purpose_amount(x):
+    return x[2]
 
-     wordx[2]
-
-    for line in sys.stdin:
-       word  = line.split(',')
-   sys.stdout.write("{}\t{}\n".format(word))
-
+for line in sys.stdin:
+    result = line.split(',')
+    print(purpose_amount(result))
